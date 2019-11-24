@@ -1,0 +1,261 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+}
+.containerheader {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+  position: relative;
+  height: 60px;
+}
+.top_navigation {
+  display: flex;
+  background: #2b7a60;
+  height: 60px;
+}
+.left{
+  display: flex;
+}
+.left-navigation .page_navigation:hover {
+  color: gainsboro;
+  transition: 0.25s;
+}
+.page_navigation {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+  margin-top: 23px;
+  
+}
+
+.page_navigation li {
+  margin: 0px 20px 0px 0px;
+}
+/* .page_navigation {
+  li {
+
+  } 
+}
+.page {
+  
+}
+.page.home {
+
+}
+.page {
+  &.home {
+
+  }
+} */
+.pusat_bantuan {
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+.right {
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+.socialmedia {
+  display: flex;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.socialmedia li {
+  margin: 0px 7px;
+}
+.socialmedia img {
+  width: 35px;
+} 
+.main_navigasi {
+  background: #009688;
+  height: 85px;
+  width: 100%;
+  display: flex;
+}
+.wrappnav {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+}
+.brand-tittle {
+  font-size: 30px;
+  margin: 15px 37px 0px 0px;
+  font-family: arial;
+}
+.brand-tittle h2 {
+  color: yellow;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+.white {
+  color: white;
+}
+.button img {
+  width: 27px;
+}
+
+.form-seacrh {
+  width: 45%;
+  
+}
+form {
+  display: flex;
+  margin: 20px 0px;
+}
+input#search {
+  width: 100%;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 15px;
+}
+.wrapping{
+  display: flex;
+  position: absolute ;
+  right: 10px;
+}
+.button {
+  border: 1px solid #2b7a60;
+  padding: 7px;
+  background: #2b7a60;
+  border-radius: 8px;
+  margin: 0px 4px;
+}
+.button:hover{
+  background: #009688 ;
+  border: 1px solid #a5a4a4;
+  transition: 0.25s;
+}
+.wrapp-navbar img {
+  width: 40px;
+}
+.icon {
+  margin: 20px;
+}
+.button-log {
+  display: flex;
+  margin: 28px;
+}
+
+.button-login {
+  margin: 0px 10px;
+}
+button.buttonlogin {
+  border-radius: 10px;
+  padding: 5px;
+  color: #009688;
+  background: white;
+  border: none;
+  width: 75px;
+  height: 30px;
+  font-size: 17px;
+  font-family: auto;
+}
+.button-sign-up {
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+button.buttonsignup {
+  border-radius: 10px;
+  padding: 5px;
+  color: #009688;
+  background: white;
+  border: none;
+  width: 75px;
+  height: 30px;
+  font-size: 17px;
+  font-family: auto;
+}
+button.buttonlogin:hover {
+  background: #c0baba;
+  color: #454343;
+  transition: 0.25s;
+}
+button.buttonsignup:hover {
+  background: #c0baba;
+  color: #454343;
+  transition: 0.25s; 
+}
+.container {
+  width: 1300px;
+  margin: auto;
+}
+.bannerleft img {
+  width: 100%;
+  height: 365px;
+  border-radius: 39px;
+}
+.bannerleft {
+  margin: 32px 0px;
+  width: 70%;
+}
+.bannerright {
+  width: 30%;
+  margin: 32px 00px 0px 20px;
+}
+.bannerright img {
+  width: 374px;
+  height: 170px;
+  border-radius: 20px;
+  padding: 6px;
+}
+.banner {
+  display: flex;
+}
+.kategori {
+  width: 100%;
+  border: 1px solid gainsboro;
+}
+.kategori p {
+  padding: 10px 20px;
+  font-size: 25px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  font-family: auto;
+}
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+}
+.optionkategori {
+  width: 12.5%;
+  border: 0.5px solid rgba(0,0,0,0.1);
+  box-sizing: border-box;
+
+}
+img {
+  width: 100%;
+}
+.tittlekategori p {
+  text-align: center;
+  font-size: 20px;
+}
+.optionkategori:hover {
+  background: #c1c1c1;
+  color: white;
+  transition: 0.25s;
+}
+.optionproduk {
+  display: flex;
+}
+.produk {
+  width: 25%;
+  padding: 10px;
+}
+.produk img {
+  width: 100%;
+}
+.tittleproduk {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.buttontambah{
+  display: flex;
+}
